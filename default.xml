@@ -38,7 +38,7 @@
   <project path="libcore" name="mer-hybris/android_libcore" revision="hybris-10.1"/>
   <project path="system/core" name="mer-hybris/android_system_core" revision="hybris-10.1"/>
   <project path="hardware/ril" name="mer-hybris/android_hardware_ril" revision="hybris-10.1"/>
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" revision="hybris-10.1"/>
 
   <!-- <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
