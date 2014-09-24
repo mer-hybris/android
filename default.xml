@@ -45,11 +45,11 @@
   <!-- Added for mka updater (update-binary for installation .zip) -->
   <project path="system/extras" name="CyanogenMod/android_system_extras" revision="cm-10.1"/>
 
-  <!-- <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/media" name="CyanogenMod/android_system_media" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <!-- project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" /> -->
+  <project path="system/security" name="CyanogenMod/android_system_security" / -->
+  <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="vendor/cm" name="mer-hybris/android_vendor_cm" revision="hybris-10.1"/>
   <project path="device/common" name="CyanogenMod/android_device_common"/>
@@ -102,10 +102,13 @@
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" />
   <project path="hardware/samsung" name="mer-hybris/android_hardware_samsung" revision="hybris-10.1" />
 
-  <!-- <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
+  <!-- Google Galaxy Nexus (maguro) -->
+  <project path="device/samsung/maguro" name="mer-hybris/android_device_samsung_maguro" revision="hybris-10.1" />
+  <project path="device/samsung/tuna" name="mer-hybris/android_device_samsung_tuna" revision="hybris-10.1" />
+  <project path="kernel/samsung/tuna" name="mer-hybris/android_kernel_samsung_tuna" revision="hybris-10.1" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" revision="cm-10.1" />
+
+  <!-- project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" /--> 
   <project path="device/lge/mako" name="mer-hybris/android_device_lge_mako" revision="hybris-10.1"/>
   <project path="kernel/lge/mako" name="mer-hybris/lge-kernel-mako" revision="hybris-10.1"/>
