@@ -12,12 +12,12 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-11.0"
+  <default revision="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="mer-hybris/android_build" groups="pdk" revision="hybris-11.0">
+  <project path="build" name="mer-hybris/android_build" groups="pdk" revision="hybris-11.0-44S">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -31,7 +31,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
-  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" revision="hybris-11.0" />
+  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" revision="hybris-11.0-44S" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
@@ -71,6 +71,7 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
+  <!-- leaving as it is on hybris-11.0, will deal with (huge) rebasing later, if ever needed -->
   <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-11.0" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -263,7 +264,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" revision="hybris-11.0" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" revision="hybris-11.0-44S" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -291,7 +292,7 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="mer-hybris/android_hardware_libhardware" groups="pdk" revision="hybris-11.0" />
+  <project path="hardware/libhardware" name="mer-hybris/android_hardware_libhardware" groups="pdk" revision="hybris-11.0-44S" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
@@ -365,7 +366,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk"  revision="hybris-11.0" />
+  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk"  revision="hybris-11.0-44S" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
@@ -388,7 +389,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <project name="mer-hybris/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="hybris-11.0" />
+  <project name="mer-hybris/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="hybris-11.0-44S" />
+  <!-- leaving as it is on hybris-11.0, will deal with (huge) rebasing later -->
   <project name="mer-hybris/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="hybris-11.0" />
 
 </manifest>
