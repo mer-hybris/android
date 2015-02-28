@@ -390,13 +390,4 @@
   <!-- leaving as it is on hybris-11.0, will deal with (huge) rebasing later -->
   <project name="mer-hybris/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="hybris-11.0" />
 
-<!-- start bacon repositories -->
- <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" />
-  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" />
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" />
-  <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
-  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" />
-  <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" />
-<!-- end bacon repositories -->
 </manifest>
