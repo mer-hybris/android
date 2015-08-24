@@ -24,11 +24,6 @@
   <!-- Include the Mer-hybris repos for packaging and images -->
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
 
-  <!-- Currently disabled due to repository being unavailable -->
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
-
 
   <!-- Subset of core CM repos for hybris -->
 
@@ -107,8 +102,6 @@
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
   <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" /--> 
-  <project path="device/lge/mako" name="mer-hybris/android_device_lge_mako" revision="hybris-10.1"/>
-  <project path="kernel/lge/mako" name="mer-hybris/lge-kernel-mako" revision="hybris-10.1"/>
 
   <!-- Google Nexus 7 (2012) -->
   <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
