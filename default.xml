@@ -10,12 +10,15 @@
 
   <project path="rpm" name="droid-src-syspart-f5121" remote="hybris"/>
 
+  <project path="bionic" name="android_bionic" remote="sony-patches"/>
+  <project path="device/sony/loire" name="device-sony-loire" remote="sony-patches"/>
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sony-patches"/>
   <project path="external/toybox" name="android_external_toybox" remote="sony-patches"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="sony-patches"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="sony-patches"/>
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sony-patches"/>
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="sony-patches"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sony-patches"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sony-patches"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sony-patches"/>
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sony-patches"/>
@@ -27,7 +30,6 @@
   <project path="device/sony/common" name="device-sony-common" remote="sony" revision="m-mr1"/>
   <project path="device/sony/common-headers" name="device-sony-common-headers" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14"/>
   <project path="device/sony/common-init" name="device-sony-common-init" remote="sony" revision="m-mr1"/>
-  <project path="device/sony/loire" name="device-sony-loire" remote="sony" revision="m-mr1"/>
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" remote="sony" revision="m-mr1"/>
   <project path="device/sony/suzu" name="device-sony-suzu" remote="sony" revision="m-mr1"/>
   <project path="hardware/qcom/camera" name="camera" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14"/>
@@ -50,7 +52,6 @@
   <project name="device/sample"/>
   <project path="abi/cpp" name="platform/abi/cpp"/>
   <project path="art" name="platform/art"/>
-  <project path="bionic" name="platform/bionic"/>
   <project path="bootable/recovery" name="platform/bootable/recovery"/>
   <project path="build" name="platform/build">
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -193,7 +194,6 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video"/>
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors"/>
   <project path="hardware/invensense" name="platform/hardware/invensense"/>
-  <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt"/>
   <project path="hardware/mediatek" name="platform/hardware/mediatek"/>
