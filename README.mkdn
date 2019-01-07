@@ -33,7 +33,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    repo init -u git://github.com/mer-hybris/android.git -b hybris-14.1
 
 Then to sync up:
 
