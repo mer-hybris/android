@@ -183,4 +183,5 @@
   <project clone-depth="1" groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" remote="aosp" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" upstream="refs/tags/android-7.1.2_r29"/>
+  <project clone-depth="1" groups="pdk" name="LineageOS/android_external_libxml2" path="external/libxml2" revision="126c3993d2ad55db2abfe80e3d671bf584e7b13b" upstream="refs/heads/cm-14.1" />
 </manifest>
