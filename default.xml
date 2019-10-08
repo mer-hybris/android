@@ -39,6 +39,9 @@
   <project groups="device" name="device-sony-tone" path="device/sony/tone" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="master"/>
+  <!--sm8150-->
+  <project path="device/sony/kumano" name="device-sony-kumano" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="master" />
   <project groups="pdk-cw-fs,pdk" name="device/common"/>
   <project groups="pdk" name="device/generic/goldfish"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
