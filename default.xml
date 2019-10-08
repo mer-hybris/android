@@ -50,7 +50,7 @@
   <project groups="device,wahoo,pdk" name="device/google/wahoo"/>
   <project groups="pdk" name="device/sample"/>
   <project groups="device" name="exfat" path="vendor/external/exfat" remote="relan" revision="68ba243d5d15854bebe61514217bcff2345d3614"/>
-  <project groups="device" name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="aosp/LA.UM.7.3.r1"/>
+  <project groups="device" name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
   <project groups="vts,pdk" name="kernel/configs"/>
   <project groups="device" name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="master"/>
@@ -690,7 +690,7 @@
   <project groups="device" name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-bluetooth" path="vendor/qcom/opensource/bluetooth" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
-  <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="aosp/LA.UM.7.3.r1">
+  <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="aosp/LA.UM.7.1.r1">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="p-mr0"/>
