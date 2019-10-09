@@ -685,6 +685,7 @@
   <project groups="device" name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-bluetooth" path="vendor/qcom/opensource/bluetooth" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
+  <project groups="device" path="vendor/qcom/opensource/display-commonsys-intf" name="vendor-qcom-opensource-commonsys-intf-display" remote="sony" revision="aosp/LA.UM.7.1.r1" />
   <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="aosp/LA.UM.7.1.r1">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
