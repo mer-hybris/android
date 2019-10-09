@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   <remote fetch="https://github.com/thaodan" name="thaodan"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r44" sync-j="24"/>
+  <default remote="aosp" revision="refs/tags/android-10.0.0_r1" sync-j="24"/>
   
   <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="master"/>
