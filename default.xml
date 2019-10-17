@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
-  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp"
+          review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/relan/" name="relan"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
@@ -45,6 +46,7 @@
   <project groups="device" name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="hardware-qcom-media" path="hardware/qcom/media/sm8150" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
+  <project clone-depth="1" groups="device" name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project name="kernel/build"/>
   <project groups="vts,pdk" name="kernel/configs"/>
   <project groups="device" name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="master"/>
@@ -487,9 +489,9 @@
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="master"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="master"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="master"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845"/>
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x"/>
@@ -716,15 +718,11 @@
     <linkfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="p-mr0"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="master"/>
+  <project name="droid-src-sony-kumano" path="droid-src" remote="thaodan" revision="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
-
-  <project name="droid-src-sony-kumano" path="droid-src" remote="thaodan" revision="master"/>
 </manifest>

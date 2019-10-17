@@ -7,9 +7,7 @@
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   <remote fetch="https://github.com/thaodan" name="thaodan"/>
   
-  <default remote="aosp" revision="refs/tags/android-10.0.0_r1" sync-j="24"/>
-
-  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="5b8dfb72c18d64dec25eb5aab4e886160e435fee" upstream="master"/>
+  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="7765345edcb2ac278e9642ea0a39b00abf425f96" upstream="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="b8a8935fe81671731dcc2672700a2bb67851ed82" upstream="master"/>
   <project groups="device" name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="f1ea9841ab16c0efb174810921cf52f787f6000f" upstream="aosp/LA.UM.6.4.r1"/>
   <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="715607dc2d8f153f060f9565203a94094f9badb0" upstream="master"/>
@@ -487,9 +485,9 @@
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="c2090430b06b56dfda97b4b709a1bca2dcb3946a" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice" revision="b78eb9abb51d3e78bcf2cb5e0b20562c5cfda97d" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="b9931a37fca34e9b55b0ba3e8e1b08e2d551588a" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="fa104a891b94ab4614894f1374a4dd702d7f0868" upstream="master"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="18db5f369fec55f4c1bf5018ed5fa66ccaceead4" upstream="master"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="6e57c01c492e8cb83d7d72f29977ff9036325bef" upstream="master"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="d76f8a38cd93264158a1615b25d8614d67f0d115" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="778a600c93a2679360c3285135b03a59c7a17bec" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="64586c56cd43c6fb39d344927f6f1404b340310c" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="7c35cda29126d117950fa0af1e4283e1634325ba" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="61502f1e7c7e0d0fcce8f3b37510ffe8f53677c2" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="4dd31f1ebad1c83ee516652008790b92b6751b58" upstream="refs/tags/android-10.0.0_r1"/>
@@ -716,9 +714,6 @@
     <linkfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="308f9af1df35937aaceb69117ce0d2244e282b49" upstream="p-mr0"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="24eb03773e1bd70ce9ad5ba07efda6d33b0a666c" upstream="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="6abff088455e3eede86a5171a1d7cb76c4166f00" upstream="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="ea6080d59d0d2e70c0a947c8ec406898d15c7593" upstream="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="ab0d04393c95bb1436f61a65b5a8f9829bd5ad68" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
