@@ -7,8 +7,8 @@
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   <remote fetch="https://github.com/thaodan" name="thaodan"/>
   
-  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="7765345edcb2ac278e9642ea0a39b00abf425f96" upstream="master"/>
-  <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="b8a8935fe81671731dcc2672700a2bb67851ed82" upstream="master"/>
+  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="4cb3b7c53baec7ef6287d3cbde12a6b8a327bb5b" upstream="master"/>
+  <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="bbece5031f9910c6b185d7c2b6148886f44ae586" upstream="master"/>
   <project groups="device" name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="f1ea9841ab16c0efb174810921cf52f787f6000f" upstream="aosp/LA.UM.6.4.r1"/>
   <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="715607dc2d8f153f060f9565203a94094f9badb0" upstream="master"/>
   <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="f6b5750dbcf7d73fd4b567f0bae1edf78d9c006f" upstream="master"/>
@@ -432,7 +432,7 @@
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="59ddf1b07e1a6479463ee39af6bb7bc0613af857" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="518f17e6727ca8f395175c3f8833d303d6cdd877" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="cee606de904204e96447ae9010ab40bb151bf3bf" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="9cc2c929ddccf3c3852a754779fd24a239bd72b5" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="57bb140be9e48cf08acba131f7463e461777bb8e" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="fe79261aabe2e8671d6a3d12f4571e0d007a6cfb" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="536e85d253acf6ed4996d2f24ecbea0ba69378ea" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="8cf36728dde3724a8a954c6b1ce3c77d8d41e67f" upstream="refs/tags/android-10.0.0_r1"/>
@@ -473,21 +473,21 @@
   <project groups="invensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="b2508d43f754b9d8272fa74c5afe722136c6c025" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="9c3fea3ac451821a47437eb53790d0297143c45a" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="be5a9e91beb1f721e5fd8a588ce9cfaee48e617e" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="7c931d58d91ad71a4902fe191bd4119288138160" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="8a94bb8c26287d8d17a4969684c42f27bd71e1de" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" revision="3baa94dcf0e8771af6c98908a5c1d558d5e4bf7c" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="5159b460bf8a2774d19a23ad253c62455ea52929" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk-qcom" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="1086e1ed8597a0c2cb3968c1a9e08bb33dcae085" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="43bc47d878d22fd7910bf60782b2a3f6d3c71a91" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk-qcom" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="92ea1653a355345dfa9e7c5a33ebe1a1665241e5" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="92ad3ede8beaef94eaaea95e8d5cd8c938284a98" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom_camera,pdk-qcom" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="7d80bf305ecab96a99926239d40caff9afbb6211" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="c36f2ad19165ce4648eabe319092b90a4a3df213" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-qcom,qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="adb76b54ebe2f4917512e8f403209bb8b38bc5af" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom,qcom_keymaster,pdk-qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="6d998e67c535d801139cc453360ac12330020569" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="ac7d548e20453e2ef0fde119c08045c68f6ec4c9" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="c2090430b06b56dfda97b4b709a1bca2dcb3946a" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice" revision="b78eb9abb51d3e78bcf2cb5e0b20562c5cfda97d" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="b9931a37fca34e9b55b0ba3e8e1b08e2d551588a" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="28e4758ecd07ccd7f9cdb11db89b7c01de7cbc23" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="5b66db84416ae51696d6154c1c8b1c8ae6adbd89" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="da555ae57d07c7ae8707b3e83b8ec216ee3746ec" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr/sdm845" revision="d76f8a38cd93264158a1615b25d8614d67f0d115" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/gps" revision="778a600c93a2679360c3285135b03a59c7a17bec" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/media/sdm845" revision="64586c56cd43c6fb39d344927f6f1404b340310c" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="7c35cda29126d117950fa0af1e4283e1634325ba" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="61502f1e7c7e0d0fcce8f3b37510ffe8f53677c2" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="4dd31f1ebad1c83ee516652008790b92b6751b58" upstream="refs/tags/android-10.0.0_r1"/>
@@ -504,7 +504,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="d75e7f1c4c325b6948f7758c0f80e51f2583a4fe" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="a374bd4c6064eabae3c7eca5986efe5a86747672" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="c17fab0869efad67f27b3cd02efb68f9611dbd47" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="2cceb516ba876ac8084c26eeac0d4282b75af763" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="9f428d1ec2eeb44aa439288677670d8ff892ac7c" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="95668c85858dbec1e951e6b0516ea28185a63201" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="a0b71ea7806d4b4c31695bcf8074cfe2435428c9" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="b6b8878df5610314bb782f5408bc1a6fa1ee6193" upstream="refs/tags/android-10.0.0_r1"/>
@@ -517,7 +517,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="c87bbeea6bc6c693af9bf8648cdd6f777c9a46e6" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="03e64567a4b446640a1eeff877e04365f25ebf58" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="b0c87f0dc750ce59edc180a2f21a87646123c0f3" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="d4f502e673bdb87a57e4888fe747f77a29cd1931" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="54fe7011b97b2b25494f71f3edba5ab52b345868" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" revision="790ed24f0782e8af819f473a3e4dd5476c1cf6d2" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="3d8677c9c9ed0b3f81afa488c2eb7378c16ddef3" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="dae89562f1e4c0d0f8cc7c4e2d352716f8e7a1a7" upstream="refs/tags/android-10.0.0_r1"/>
@@ -627,7 +627,7 @@
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="421cc2e5f70e617e342b4f911233697dfac40eba" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="c4ca16abfdba4e531affd21ea78ab25242231ea2" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/system/core" path="system/core" revision="5aa0e4241029c80617a8e98b07f7f48ab6b3a3d7" upstream="refs/tags/android-10.0.0_r1"/>
-  <project groups="pdk" name="platform/system/extras" path="system/extras" revision="bf8cc6d8afda173d5f4009ea743a4c10e8e59346" upstream="refs/tags/android-10.0.0_r1"/>
+  <project groups="pdk" name="platform/system/extras" path="system/extras" revision="1be00e563e8d4e65f94dc85ed68b893010d2070d" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="b67d133b83c830b5341aaaaae0cb0cb1a45bb415" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="a42c64f8fc52a3c6d536a1d32d8683f9c7f080ca" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="2ff2792a0c5cd668d331960cdc56ddeb3e23d217" upstream="refs/tags/android-10.0.0_r1"/>
@@ -695,7 +695,7 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="0d1a0a46cea5b86be8e58c2add40a992abff0c74" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="bf6734f0712deba2b08f8577a72e756e79723711" upstream="refs/tags/android-10.0.0_r1"/>
   <project groups="device" name="release-keys" path="vendor/oss/release-keys" remote="sony" revision="3fc0cf01697b7ac667ca75047bb81af6ccc8d29d" upstream="master"/>
-  <project groups="device" name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="be62abc384288bf91b5a351784f65fec1ca2b83a" upstream="master">
+  <project groups="device" name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="1ba49fe1d0d06483533c300cb4bf66ac029b04d3" upstream="master">
     <linkfile dest="repo_update.sh" src="repo_update.sh"/>
   </project>
   <project groups="device" name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="87297db29b81ae9dedb386f75db8457e871a5a59" upstream="master"/>
@@ -708,14 +708,19 @@
   <project groups="device" name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="b1e4fc83b8b9fb16db08d3df2af02a4ac3d8ad27" upstream="master"/>
   <project groups="device" name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="3f180baffe214dd0896209b36074c4c5d1c2583b" upstream="master"/>
   <project groups="device" name="vendor-qcom-opensource-bluetooth" path="vendor/qcom/opensource/bluetooth" remote="sony" revision="267934ac85ecb31a5971c7e52110d24652255d8e" upstream="master"/>
-  <project groups="device" name="vendor-qcom-opensource-commonsys-intf-display" path="vendor/qcom/opensource/display-commonsys-intf" remote="sony" revision="d7100cd1ffb6825df93f7d173edf024aa185e182" upstream="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="844ec759a864af521da576748ed309d9e954979a" upstream="master"/>
-  <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="a80096bab0f0b75770a4335ffad9551955081128" upstream="aosp/LA.UM.7.1.r1">
+  <project groups="device" name="vendor-qcom-opensource-commonsys-intf-display" path="vendor/qcom/opensource/display-commonsys-intf" remote="sony" revision="fa5a97670dc1a0939aa287cf4b1e5f25c8f82815" upstream="aosp/LA.UM.7.1.r1"/>
+  <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="1d4824c809c48414fa7ad5abe4f87fdb189b804d" upstream="q-mr1"/>
+  <project groups="device" name="vendor-qcom-opensource-gpt-utils" path="vendor/qcom/opensource/gpt-utils" remote="sony" revision="b2c1def63cee5954c74d8d578d94356689a95b1b" upstream="master"/>
+  <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="d46cb766e825e05b41df0a65dd6366584c8c48aa" upstream="aosp/LA.UM.7.1.r1">
     <linkfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="308f9af1df35937aaceb69117ce0d2244e282b49" upstream="p-mr0"/>
+  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="bb639e13bb5fdb5b495ce52a747be304146c35f7" upstream="q-mr0"/>
+  <project groups="device" name="vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="sony" revision="7b166aa9609014f9ec2aab3282616a2a1cc9cdf2" upstream="aosp/LA.UM.7.1.r1"/>
+  <project groups="device" name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="ded6aa61f957087cd96094cbbb8fee2f1144dde8" upstream="aosp/LA.UM.7.1.r1"/>
+  <project groups="device" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="5a6c28d3522c620c7d8bd14fcef79d1c6add5f33" upstream="aosp/LA.UM.7.1.r1"/>
+  <project groups="device" name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="1ce5e7531f7819db0b305fc51e2ab2f00629585d" upstream="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
-  <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="ab0d04393c95bb1436f61a65b5a8f9829bd5ad68" upstream="master"/>
+  <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="57f14fff051c9737cfc4e59a7b9e97838d944d30" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="743c35040a50043c96c7628cece489da24974729" upstream="master"/>
   <project name="droid-src-sony-kumano" path="rpm" remote="thaodan" revision="master"/>

@@ -16,6 +16,7 @@
   <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="master"/>
+  <project groups="device" name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="master"/>
   <project groups="device" name="device-sony-common-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
@@ -46,6 +47,7 @@
   <project groups="device" name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="hardware-qcom-media" path="hardware/qcom/media/sm8150" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
+  <project groups="device" name="json-c" path="vendor/oss/json-c" remote="sony" revision="master"/>
   <project clone-depth="1" groups="device" name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project name="kernel/build"/>
   <project groups="vts,pdk" name="kernel/configs"/>
@@ -713,11 +715,13 @@
   <project groups="device" name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-bluetooth" path="vendor/qcom/opensource/bluetooth" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-commonsys-intf-display" path="vendor/qcom/opensource/display-commonsys-intf" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="master"/>
+  <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="q-mr1"/>
+  <project groups="device" name="vendor-qcom-opensource-gpt-utils" path="vendor/qcom/opensource/gpt-utils" remote="sony" revision="master"/>
   <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="aosp/LA.UM.7.1.r1">
     <linkfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="p-mr0"/>
+  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="q-mr0"/>
+  <project groups="device" name="vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="master"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="master"/>
