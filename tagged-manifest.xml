@@ -609,7 +609,7 @@
   <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="8becfc0299c98d8d509de53773e732714ec16148" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="8dcf1fbf8bbfadbe6fbad47f9b9389f41221477d" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="43483646abcf8a0d4db5d1a8131611d0d0a16fcb" upstream="master"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="6978d0b8446b694e55feb959f7ee48f7c6a9a2da" upstream="master"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
