@@ -588,7 +588,7 @@
   </project>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="43af668f4802a26220b17393635a637a857af0fa" upstream="o-mr1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="43483646abcf8a0d4db5d1a8131611d0d0a16fcb" upstream="master"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="6978d0b8446b694e55feb959f7ee48f7c6a9a2da" upstream="master"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
