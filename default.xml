@@ -12,7 +12,6 @@
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="master" groups="device"/>
   <project name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="master" groups="device"/>
   <project name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="master" groups="device"/>
-  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="aosp/LA.UM.8.11.r1" groups="device"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="master" groups="device"/>
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="master" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="master" groups="device"/>

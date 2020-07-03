@@ -13,7 +13,6 @@
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="ce25d04bb7f133ea7412238d4e6d0c685453269a" upstream="master" dest-branch="master" groups="device"/>
   <project name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="ef51ec65f5609e0fe9180ec3d2d054b72c0b8bee" upstream="master" dest-branch="master" groups="device"/>
   <project name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="77168566123a002c3fc071ae7a7272edc9d13340" upstream="master" dest-branch="master" groups="device"/>
-  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="59274c8fdd88c04be48ccac64c2b9a5cff53a3f2" upstream="aosp/LA.UM.8.11.r1" dest-branch="aosp/LA.UM.8.11.r1" groups="device"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="c6960fc61c87ac0ce4bc6025159c3dc3c0f607e4" upstream="master" dest-branch="master" groups="device"/>
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="ca1356ed1e58de1f9f48f3dfc700071e6d8bf54f" upstream="master" dest-branch="master" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="bde6a2ba5789f832eec682c9cbdad7744dd24c0a" upstream="master" dest-branch="master" groups="device"/>
