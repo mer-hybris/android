@@ -32,7 +32,7 @@
   <project groups="device" name="device-sony-pdx201" path="device/sony/pdx201" remote="sony" revision="400a4efccfee3dd8bba4adbbc8eec7482e298c6b" upstream="q-mr1"/>
   <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="b31af85975ee2050af879433fdc06e697ddae9c0" upstream="q-mr1"/>
   <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="537e589d331dfa8cf6a6f193d426b49df8070735" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-seine" path="device/sony/seine" remote="sony" revision="1ee52a720d07033eb915c9e49ae8cce9fd74bad5" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-seine" path="device/sony/seine" remote="sony" revision="3ab0ff50b99f0fe64ffb64ba041ad6be5c7501c1" upstream="q-mr1"/>
   <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="4e0c347cbffb6dafc9aa2401cc443252add91bb5" upstream="q-mr1"/>
   <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="8704ec101f5d9697ee9537e72c37a4587ad695d4" upstream="q-mr1"/>
   <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="3109cbe9494ee9cd1e4491369825d54012de625c" upstream="q-mr1"/>
