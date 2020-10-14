@@ -46,11 +46,8 @@
   <project groups="device" name="hardware-qcom-media-sm8150" path="vendor/qcom/opensource/media/sm8150" remote="sony" revision="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
   <project groups="device" name="json-c" path="vendor/oss/json-c" remote="sony" revision="q-mr1"/>
-  <project groups="device" name="kernel" path="kernel/sony/msm-4.14/kernel" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="kernel-defconfig" path="kernel/sony/msm-4.14/kernel/arch/arm64/configs/sony" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project clone-depth="1" groups="device" name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="kernel-techpack-audio" path="kernel/sony/msm-4.14/kernel/techpack/audio" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="kernel-techpack-data-kernel" path="kernel/sony/msm-4.14/kernel/techpack/data-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
   <project name="kernel/build"/>
   <project groups="vts,pdk" name="kernel/configs"/>
   <project groups="device" name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="q-mr1"/>
@@ -727,9 +724,6 @@
   <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="vendor-qcom-opensource-telephony" path="vendor/qcom/opensource/telephony" remote="sony" revision="aosp/LA.UM.8.2.1.r1"/>
   <project groups="device" name="vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="sony" revision="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="aosp/LA.UM.8.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="aosp/LA.UM.8.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.14/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="q-mr1"/>
   <project groups="device" name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="q-mr1"/>
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="q-mr1"/>
