@@ -729,7 +729,7 @@
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="q-mr1"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="q-mr1"/>
   
-  <project name="droid-src-sony-kumano" path="droid-src" remote="thaodan" revision="master"/>
+  <project name="droid-src-sony-kumano" path="rpm" remote="thaodan" revision="master"/>
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>

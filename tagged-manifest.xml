@@ -729,5 +729,7 @@
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="q-mr1"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="0f40dea301d470510d9a33afe53b4e46c18407a7" upstream="q-mr1"/>
   
+  <project name="droid-src-sony-kumano" path="rpm" remote="thaodan" revision="5cae1e2180a836fc11b034320388bfd77bb6b7c1"/>
+
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
