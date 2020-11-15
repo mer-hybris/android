@@ -28,7 +28,7 @@
   <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="sony-patches" revision="140e47c0deac29b4fe12408f450ba8200aa469bb" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="sony-patches" revision="c35f8b426620c458c94048e55a884a9c0b91b1e4" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_ril" path="hardware/ril" remote="sony-patches" revision="4e15283fb76b9af5c286dda4cdd2e57e9e22ed6c" upstream="sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="hybris-patches" revision="144c372e2d95f6eb0a65de84fa826a3cd9f649dc" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="hybris-patches" revision="05fba7cf236d7023e8c22935abc7fd4f2d4b2434" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_system_core" path="system/core" remote="hybris-patches" revision="7883bd63a03288b616177efeeae1c48c62cca4c6" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="camera" path="hardware/qcom/camera" remote="sony" revision="b66cda07a10d0ff2b043f6d391d62d938a1cf203" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
   <project name="device-sony-common" path="device/sony/common" remote="hybris-patches" revision="43097e0a590d45dad286aba2003001c2d596749b" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
