@@ -39,7 +39,7 @@
   <project name="device-sony-suzu" path="device/sony/suzu" remote="hybris-patches" revision="b7ef3c77d6f4eaaeefc5afcaf6c28cd3c87fd2ca" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="droid-hal-f5121" path="rpm" remote="hybris" revision="06e878e6d4baae14bc1ed7fd3a6fa2db712338e5" upstream="master"/>
+  <project name="droid-hal-f5121" path="rpm" remote="hybris" revision="ac0d7916e04e6f8c2599e0b91fee0d1659c2be1b" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="837e5f9ac6025edc838c9dfc235b251872202b0a" upstream="master"/>
   <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="dceef471f223dbea9d87fdbec98c5e05d961758d" upstream="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="bd73c3e167812f6310faad7ae2e08de9df5944bb" upstream="master"/>
