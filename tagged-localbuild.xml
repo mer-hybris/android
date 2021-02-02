@@ -8,44 +8,44 @@
   
   <default remote="aosp" revision="refs/tags/android-10.0.0_r41" sync-j="4"/>
   
-  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="93903b44bcce4a6e94393d4e160bc231529e532e" upstream="master"/>
+  <project groups="device" name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="2a017334718a6ba41030ef0c2aa0e3988137cdb3" upstream="master"/>
   <project groups="device" name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="ef51ec65f5609e0fe9180ec3d2d054b72c0b8bee" upstream="q-mr1"/>
   <project groups="device" name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="67c397047542e8442d5b5044952b0b863b73b119" upstream="q-mr1"/>
   <project groups="device" name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="81cf96affc67fd1405ac7ad268321072cc3c23ef" upstream="aosp/LA.UM.8.11.r1"/>
-  <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="933d61738bcec76b413271877475ff455ccac6db" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="34cf372f313230537798d711d7fe5962397abace" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="6285b8453575d5683bc1ccd486685d8329309b43" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="b36fbbf99a3da9b82856cabf03dbe0804ca5abb2" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="f9d7511bb0578775a44dbfa80fa1efc710f628f5" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-akari" path="device/sony/akari" remote="sony" revision="d12f2f4453fd296e33c60462ede4bed76ad8eb15" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="1313e299cd5c60a54f274354866b2a6a2da8c241" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="ee4982625e2720669eb3e513f9cb4f02618b8df9" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="5fabcb5bf2d7c20c269312a8ed019160fa84a286" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-common" path="device/sony/common" remote="sony" revision="61419de5160552b1aecc0d245ca200ab21ac56a9" upstream="q-mr1"/>
   <project groups="device" name="device-sony-common-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="702487392dae301e51c1368b08e5f6afc470a864" upstream="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="1161b7e25dcd944c437f19ed4257cbebeefe2987" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="2733c2ffa58fa4a7bdebed5ec1f8a23ec0f8ff5c" upstream="q-mr1"/>
   <project groups="device" name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="72b3f8a310633978f12955b650b616c38f3d9bde" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-griffin" path="device/sony/griffin" remote="sony" revision="944598a5325dd08b9194c68f9da995de3e1f032c" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="f4fd7ef5d2c052822387f1e6a203b9c43ff66c1c" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-kumano" path="device/sony/kumano" remote="sony" revision="dd0cfe6246065bf15bafa3b2ac785b535bba9b90" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="81597236f684f03ad1ba1b9dbc117e8986f21e9d" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="c640d6db60c52965d83ea2714bb9bd16d16ef40c" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="52371c94c2eddc603707931074509f36a822b1b2" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-griffin" path="device/sony/griffin" remote="sony" revision="640ef223bf5281ee02dd5340e4f79c11fbec818a" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-kirin" path="device/sony/kirin" remote="sony" revision="aac518e1a90ee94619a4c71bd5e675449d07cce0" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-kumano" path="device/sony/kumano" remote="sony" revision="cf83fcd463cf11a157d6eca95de3fc720b3cb459" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-lilac" path="device/sony/lilac" remote="sony" revision="1f8e778d96195c833d09c434aaa7294c5dd9731d" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-maple" path="device/sony/maple" remote="sony" revision="aa60ed8efddf5a8a1b26f69e70f7bb0b2d0c61b6" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="07c84b5a33cfb64ae317bc8ef4ad0bee14b50253" upstream="q-mr1"/>
   <project groups="device" name="device-sony-nile" path="device/sony/nile" remote="sony" revision="cf9709ca1e1183c5205aa42d39242cbd5b818c6e" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-pdx201" path="device/sony/pdx201" remote="sony" revision="400a4efccfee3dd8bba4adbbc8eec7482e298c6b" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="b31af85975ee2050af879433fdc06e697ddae9c0" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="537e589d331dfa8cf6a6f193d426b49df8070735" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-seine" path="device/sony/seine" remote="sony" revision="3ab0ff50b99f0fe64ffb64ba041ad6be5c7501c1" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="4e0c347cbffb6dafc9aa2401cc443252add91bb5" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-pdx201" path="device/sony/pdx201" remote="sony" revision="3f78ad5bb250f28df81dd0ea3bc828e7c8274d50" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="a6de40b501496b873291f0f5e9b6e26208b1f97d" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="f4834df3db5997e860c686d26b97b7f1feda70d0" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-seine" path="device/sony/seine" remote="sony" revision="12f3898af902785243165cf3ad2c33e0b2d446c0" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="1112e97c8a89f71dbfac5f1422b57ff84c1e6ec8" upstream="q-mr1"/>
   <project groups="device" name="device-sony-tama" path="device/sony/tama" remote="sony" revision="8704ec101f5d9697ee9537e72c37a4587ad695d4" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="3109cbe9494ee9cd1e4491369825d54012de625c" upstream="q-mr1"/>
-  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="10e76e51056c20eb73185b1cc454ea0e3d1d0906" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-voyager" path="device/sony/voyager" remote="sony" revision="8085b2fc71ae06ae039700860e625f32792b6e70" upstream="q-mr1"/>
+  <project groups="device" name="device-sony-yoshino" path="device/sony/yoshino" remote="sony" revision="be38467b6cfc0f4804cc7e7c09a3a1be9227d1b8" upstream="q-mr1"/>
   <project groups="pdk" name="device/google_car" revision="e9080f3f999eeb872ff73aa0f8d39a48f07c7e11" upstream="refs/tags/android-10.0.0_r41"/>
   <project groups="pdk" name="device/sample" revision="d64a03ec745d8e4085ae65a868f1e8d66b2d9c4c" upstream="refs/tags/android-10.0.0_r41"/>
   <project groups="device" name="exfatprogs" path="vendor/external/exfatprogs" remote="exfatprogs" revision="d9fbffd53e2e1ec89584b8c6931d8984e9894f4b" upstream="refs/tags/1.0.4"/>
   <project groups="device" name="hardware-qcom-display" path="vendor/qcom/opensource/display" remote="sony" revision="e5b6ff2cd530846e8ea1c8f776d463c6c0428724" upstream="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="hardware-qcom-gps" path="vendor/qcom/opensource/gps" remote="sony" revision="0c11b6f8e6026c23f6723796d01bef8bdc8e4920" upstream="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="hardware-qcom-media" path="vendor/qcom/opensource/media/sdm660-libion" remote="sony" revision="c4da76d85056261a7cf6c78dc377d40b602f06ea" upstream="aosp/LA.UM.8.2.1.r1"/>
-  <project groups="device" name="hardware-qcom-media-sm8150" path="vendor/qcom/opensource/media/sm8150" remote="sony" revision="6309549692fbdfc358a397a5ea52491b95756af9" upstream="aosp/LA.UM.8.1.r1"/>
+  <project groups="device" name="hardware-qcom-media-sm8150" path="vendor/qcom/opensource/media/sm8150" remote="sony" revision="8797716b9a8015163a09eaae959cfbba17265acf" upstream="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="6351125ec900f421276213a2a0d336cfc6268042" upstream="master"/>
   <project groups="device" name="json-c" path="vendor/oss/json-c" remote="sony" revision="3b0d70d918bc57153721d45645cb953a493ebe19" upstream="q-mr1"/>
-  <project groups="device" name="kernel-defconfig" path="kernel/sony/msm-4.14/kernel/arch/arm64/configs/sony" remote="sony" revision="764679a8686d33dab710e3399c82dd2a95c49365" upstream="aosp/LA.UM.7.1.r1"/>
-  <project clone-depth="1" groups="device" name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="5cc29436eb303fef079db7ddca301832fc997bff" upstream="aosp/LA.UM.7.1.r1"/>
+  <project groups="device" name="kernel-defconfig" path="kernel/sony/msm-4.14/kernel/arch/arm64/configs/sony" remote="sony" revision="23860dfb8a01f83d36bbaf69385684ca5166dc8d" upstream="aosp/LA.UM.7.1.r1"/>
+  <project clone-depth="1" groups="device" name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="3fdd34b921c95368ca7fc199480d43156c8b9922" upstream="aosp/LA.UM.7.1.r1"/>
   <project name="kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r41"/>
   <project groups="vts,pdk" name="kernel/configs" revision="d837383e3a7c01485e04c1a1880c16736930e905" upstream="refs/tags/android-10.0.0_r41"/>
   <project groups="device" name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="d2871b2041790f6d291e207bec8b0ef34029ef59" upstream="q-mr1"/>
@@ -711,7 +711,7 @@
   <project groups="device" name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="886f908cd0c045f7e8bda2af7dd22067d5e82d70" upstream="q-mr1"/>
   <project groups="device" name="vendor-nxp" path="vendor/nxp" remote="sony" revision="ab4669205c9e7bf94b130a0fea73ccbb6d73f29b" upstream="q-mr1"/>
   <project groups="device" name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="3f180baffe214dd0896209b36074c4c5d1c2583b" upstream="q-mr1"/>
-  <project groups="device" name="vendor-qcom-opensource-audio-hal-primary-hal" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="sony" revision="bbcc00db8ccc47eff1782fc58a13b1f610be13d0" upstream="q-mr1"/>
+  <project groups="device" name="vendor-qcom-opensource-audio-hal-primary-hal" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="sony" revision="1ee53035624ae1083f224d3b7a332368a856f08c" upstream="q-mr1"/>
   <project groups="device" name="vendor-qcom-opensource-audio-hal-st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="sony" revision="6939d1c1737aac054560ae9c6223eb2d4fc790b1" upstream="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="vendor-qcom-opensource-bluetooth" path="vendor/qcom/opensource/bluetooth" remote="sony" revision="be84e7271fe5864727f68814f927bbf7ccda49e1" upstream="master"/>
   <project groups="device" name="vendor-qcom-opensource-commonsys-intf-display" path="vendor/qcom/opensource/display-commonsys-intf" remote="sony" revision="51448b1716719246cf770863750077e85a6a6151" upstream="aosp/LA.UM.8.1.r1"/>
@@ -719,7 +719,7 @@
   <project groups="device" name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="7a9567dda4b5c6bfba5011920bb0ea3a727c8530" upstream="q-mr1"/>
   <project groups="device" name="vendor-qcom-opensource-gpt-utils" path="vendor/qcom/opensource/gpt-utils" remote="sony" revision="b2c1def63cee5954c74d8d578d94356689a95b1b" upstream="master"/>
   <project groups="device" name="vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" remote="sony" revision="764d41a3fcdf490df2eb4a9c347184e02e2895c7" upstream="aosp/LA.UM.7.1.r1"/>
-  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="e83f41da52cd8cebcf14d772be5304eb1f6905bd" upstream="aosp/LA.UM.8.1.r1"/>
+  <project groups="device" name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="578b40d7469512053f896b86b1b365a33b79990d" upstream="aosp/LA.UM.8.1.r1"/>
   <project groups="device" name="vendor-qcom-opensource-telephony" path="vendor/qcom/opensource/telephony" remote="sony" revision="8d22b85c8841f313b041e09838c246f92496b2e3" upstream="aosp/LA.UM.8.2.1.r1"/>
   <project groups="device" name="vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="sony" revision="b6ac417de16816e14cc9169a63903a9ec7ceef7d" upstream="aosp/LA.UM.7.1.r1"/>
   <project groups="device" name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="82798994c4a24db677e5838e7a767dbc9454719b" upstream="q-mr1"/>
