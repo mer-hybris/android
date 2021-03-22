@@ -2,5 +2,5 @@
 <manifest>
   <remote fetch="https://github.com/mer-hybris" name="hybris"/>
   <include name="tagged-localbuild.xml"/>
-  <project name="droid-src-sony" path="rpm" remote="hybris" revision="1d1434df418c3f0d2c26a193542538b226349a9a"/>
+  <project name="droid-src-sony" path="rpm" remote="hybris" revision="31e27823421a2ad117a7748702ec41d793ece96f"/>
 </manifest>
