@@ -27,7 +27,7 @@
   <project name="device-sony-maple" path="device/sony/maple" remote="sony" revision="03b647d06e4644c1009f0e56dd0df8cb70652410" upstream="q-mr1" groups="device"/>
   <project name="device-sony-mermaid" path="device/sony/mermaid" remote="sony" revision="369e01e205099296246b570801334ed919d34414" upstream="q-mr1" groups="device"/>
   <project name="device-sony-nile" path="device/sony/nile" remote="sony" revision="c750147b6a07be6e833394d3b1e84eed3af3b072" upstream="q-mr1" groups="device"/>
-  <project name="device-sony-pdx201" path="device/sony/pdx201" remote="sony" revision="7d74abea8a4694ea064d8009ba7acaa08daa8c34" upstream="q-mr1" groups="device"/>
+  <project name="device-sony-pdx201" path="device/sony/pdx201" remote="sony" revision="40cc8fd231684c93b1df1e33362e94f5f88ce7e7" upstream="q-mr1" groups="device"/>
   <project name="device-sony-pioneer" path="device/sony/pioneer" remote="sony" revision="f5e43dffef0f7ce6c8d1f7c5effc9ff8edfbf272" upstream="q-mr1" groups="device"/>
   <project name="device-sony-poplar" path="device/sony/poplar" remote="sony" revision="013d1bd25310dd9be08086ac03cac9714cd439cd" upstream="q-mr1" groups="device"/>
   <project name="device-sony-seine" path="device/sony/seine" remote="sony" revision="44f723ef9939be755e49c611a9dd32d0d048850f" upstream="q-mr1" groups="device"/>
