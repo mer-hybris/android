@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/mer-hybris" name="hybris"/>
+  <include name="tagged-localbuild.xml"/>
+  <project name="droid-src-sony" path="rpm" remote="hybris" revision="113ac5f7c357249e9be86dede4dd692e2457e9e3"/>
+</manifest>
