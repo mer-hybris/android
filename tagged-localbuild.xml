@@ -8,15 +8,15 @@
   
   <default remote="aosp" revision="refs/tags/android-10.0.0_r41" sync-j="4"/>
   
-  <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="4f81305e50563b4995ba1fa071864e95b837cebb" upstream="master" groups="device"/>
+  <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="08f462368aa9cfd721172cc1facc00a6d325a386" upstream="master" groups="device"/>
   <project name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="ef51ec65f5609e0fe9180ec3d2d054b72c0b8bee" upstream="q-mr1" groups="device"/>
   <project name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="67c397047542e8442d5b5044952b0b863b73b119" upstream="q-mr1" groups="device"/>
-  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="81cf96affc67fd1405ac7ad268321072cc3c23ef" upstream="aosp/LA.UM.8.11.r1" groups="device"/>
+  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="93520c5e63d30b4c35f1665aa9d644d37cb5491b" upstream="aosp/LA.UM.8.11.r1" groups="device"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="ddbd49032d52184a7942eced2a5dc5f1b456058f" upstream="q-mr1" groups="device"/>
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="3fcb246ea543ce8d2e549b707a61b6c001594163" upstream="q-mr1" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="e702eb3698c31c2f71e90bfbb4558177b8bcfcb6" upstream="q-mr1" groups="device"/>
   <project name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="f9bc7dbda05cc85126dd72e9b30bb4adaacdfb29" upstream="q-mr1" groups="device"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="f5740dc7ae85666864fc179850a43ea29505fc27" upstream="q-mr1" groups="device"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="0aecc4398e8f77eac2d354d5c9879eb18a92d584" upstream="q-mr1" groups="device"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="ee8589bd354c74b8ebad0fbb779ab354759afe7c" upstream="aosp/LA.UM.7.1.r1" groups="device"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="27650024e3b0be2c11034a49e6405e7093ef03b9" upstream="q-mr1" groups="device"/>
   <project name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="72b3f8a310633978f12955b650b616c38f3d9bde" upstream="q-mr1" groups="device"/>
@@ -709,7 +709,7 @@
   <project name="toolchain/pgo-profiles" revision="248f97c5fdc39400ebcb51b72ba2263fe12781a7" upstream="refs/tags/android-10.0.0_r41" groups="pdk"/>
   <project name="transpower" path="vendor/oss/transpower" remote="sony" revision="cc3e2308b22425e2b92cc9970fe6bc6975cfa61d" upstream="q-mr1" groups="device"/>
   <project name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="886f908cd0c045f7e8bda2af7dd22067d5e82d70" upstream="q-mr1" groups="device"/>
-  <project name="vendor-nxp" path="vendor/nxp" remote="sony" revision="ab4669205c9e7bf94b130a0fea73ccbb6d73f29b" upstream="q-mr1" groups="device"/>
+  <project name="vendor-nxp" path="vendor/nxp" remote="sony" revision="3283f83aa2f2f37c97343be995b135d1fc3979e2" upstream="q-mr1" groups="device"/>
   <project name="vendor-oss-interfaces" path="vendor/oss/interfaces" remote="sony" revision="3f180baffe214dd0896209b36074c4c5d1c2583b" upstream="q-mr1" groups="device"/>
   <project name="vendor-qcom-opensource-audio-hal-primary-hal" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="sony" revision="9095301266413a05cb4a8e448c659b6068f1196c" upstream="q-mr1" groups="device"/>
   <project name="vendor-qcom-opensource-audio-hal-st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="sony" revision="6939d1c1737aac054560ae9c6223eb2d4fc790b1" upstream="aosp/LA.UM.8.1.r1" groups="device"/>
