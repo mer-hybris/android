@@ -1,0 +1,3 @@
+<reference>
+    <device name="sony-lena" url="https://github.com/mer-hybris/android.git" branch="sony-aosp-11"/>
+</reference>
