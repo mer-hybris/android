@@ -593,7 +593,7 @@
   <project name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="android-8.1.0_r3">
     <linkfile dest="repo_update.sh" src="repo_update.sh"/>
   </project>
-  <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="master"/>
+  <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="o-mr1"/>
   <project name="timekeep" path="vendor/oss/timekeep" remote="sony" revision="master"/>
   <project name="toolchain/binutils"/>
   <project name="transpower" path="vendor/oss/transpower" remote="sony" revision="android-8.1.0_r35"/>
@@ -610,7 +610,7 @@
   <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="master"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="master"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="o-mr1"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
