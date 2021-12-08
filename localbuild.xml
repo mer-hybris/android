@@ -68,7 +68,7 @@
   <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
-  <project path="vendor/oss/opentelephony" name="SonyOpenTelephony" groups="device" remote="sony" revision="master" />
+  <project path="vendor/oss/opentelephony" name="SonyOpenTelephony" groups="device" remote="sony" revision="r-mr1" />
   <project path="vendor/oss/qcrilam"  name="QcRilAm" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/simdetect" name="vendor-sony-oss-simdetect" groups="device" remote="sony" revision="master" />
@@ -76,7 +76,7 @@
   <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
   <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
   <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="r-mr1" />
-  <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
+  <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="android-11.0.0_r1">
       <linkfile src="repo_update.sh" dest="repo_update.sh" />
   </project>
 
@@ -125,7 +125,9 @@
 <!-- Kernel -->
 
   <project path="kernel/sony/qti-headers" name="qti-headers" groups="device" remote="sony" revision="master" />
-  <project path="kernel/sony/msm-4.19/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+  <project name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device" clone-depth="1"/>
+  <project name="kernel-sony-msm-4.14-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device"/>
+  <project path="kernel/sony/msm-4.19/common-headers" name="kernel-sony-msm-4.19-headers" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/msm-4.19/common-kernel" name="kernel-sony-msm-4.19-common" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" clone-depth="1"/>
 
 <!-- AOSP -->
@@ -154,12 +156,6 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
-  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
-  <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull" />
-  <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adeb" name="platform/external/adeb" groups="pdk" />
@@ -362,7 +358,6 @@
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
-  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
   <project path="external/lua" name="platform/external/lua" groups="pdk" />
@@ -539,7 +534,6 @@
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" />
-  <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/localepicker" name="platform/frameworks/opt/localepicker" />
@@ -556,7 +550,6 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
@@ -571,48 +564,10 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250" />
-  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" groups="qcom_sm8150p" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150p/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150p/Android.bp" />
-  </project>
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
@@ -626,23 +581,8 @@
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
-  <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" />
-  <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" />
-  <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" />
-  <project path="packages/apps/Car/LatinIME" name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" />
-  <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" />
-  <project path="packages/apps/Car/LinkViewer" name="platform/packages/apps/Car/LinkViewer" groups="pdk-fs" />
-  <project path="packages/apps/Car/LocalMediaPlayer" name="platform/packages/apps/Car/LocalMediaPlayer" groups="pdk-fs" />
-  <project path="packages/apps/Car/Media" name="platform/packages/apps/Car/Media" groups="pdk-fs" />
-  <project path="packages/apps/Car/Messenger" name="platform/packages/apps/Car/Messenger" groups="pdk-fs" />
   <project path="packages/apps/Car/Notification" name="platform/packages/apps/Car/Notification" groups="pdk-fs" />
-  <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" />
-  <project path="packages/apps/Car/RotaryController" name="platform/packages/apps/Car/RotaryController" groups="pdk-fs" />
-  <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" groups="pdk-fs" />
-  <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
-  <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
