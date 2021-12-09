@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="NXP" fetch="https://github.com/NXP/"/>
-  <remote name="aosp" review="https://android-review.googlesource.com/" fetch="https://android.googlesource.com/"/>
+  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
   <remote name="exfatprogs" fetch="https://github.com/exfatprogs/"/>
   <remote name="hybris" fetch="https://github.com/mer-hybris"/>
   <remote name="sony" fetch="https://github.com/sonyxperiadev/"/>
-
+  
   <default remote="aosp" revision="refs/tags/android-11.0.0_r46" sync-j="4"/>
-
+  
   <project name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="ef51ec65f5609e0fe9180ec3d2d054b72c0b8bee" upstream="master" dest-branch="master" groups="device"/>
   <project name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="c0b6d4306cd69764de63d2064c99c1224b840430" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="8b25a1a5eb89478dca58b57af6a91c7d0b0ead0d" upstream="aosp/LA.UM.8.11.r1" dest-branch="aosp/LA.UM.8.11.r1" groups="device"/>
@@ -755,10 +755,10 @@
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="82798994c4a24db677e5838e7a767dbc9454719b" upstream="master" dest-branch="master" groups="device"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="aed1171355aba9f699b1364ca2978c62fb1a0e67" upstream="master" dest-branch="master" groups="device"/>
   <project name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="0f40dea301d470510d9a33afe53b4e46c18407a7" upstream="master" dest-branch="master" groups="device"/>
-
+  
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
-
+  
   <superproject name="platform/superproject"/>
-
+  
   <contactinfo bugurl="go/repo-bug"/>
 </manifest>
