@@ -49,7 +49,7 @@
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="6351125ec900f421276213a2a0d336cfc6268042" upstream="master" dest-branch="master" groups="device"/>
   <project name="json-c" path="vendor/oss/json-c" remote="sony" revision="3b0d70d918bc57153721d45645cb953a493ebe19" upstream="master" dest-branch="master" groups="device"/>
   <project name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="79e37fe6b2278bf7c339c900a6d9e1da874acfe2" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device" clone-depth="1"/>
-  <project name="kernel-sony-msm-4.14-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="513c87c4948857c21347f5e8029cd4ddfb472fe6" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device"/>
+  <project name="kernel-sony-msm-4.14-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="4b3c84b2cb00590ccea2891f6246cff86cb7dab1" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device"/>
   <project name="kernel-sony-msm-4.19-common" path="kernel/sony/msm-4.19/common-kernel" remote="sony" revision="b9eeaa00bf5ba747889d2ac52113bbc971e7631e" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device" clone-depth="1"/>
   <project name="kernel-sony-msm-4.19-headers" path="kernel/sony/msm-4.19/common-headers" remote="sony" revision="5c39097354b0dc0e678f2e12019a50e0166bf665" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device"/>
   <project name="kernel/configs" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
@@ -753,7 +753,7 @@
   <project name="vendor-qcom-opensource-usb" path="vendor/qcom/opensource/usb" remote="sony" revision="3ecd1faf8f4fcef9cd61e534342b155365d7c86d" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device"/>
   <project name="vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="sony" revision="b6ac417de16816e14cc9169a63903a9ec7ceef7d" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="82798994c4a24db677e5838e7a767dbc9454719b" upstream="master" dest-branch="master" groups="device"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="aed1171355aba9f699b1364ca2978c62fb1a0e67" upstream="master" dest-branch="master" groups="device"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="6d1c0bf947318b24d56d941fc0340efeb8a01aaa" upstream="master" dest-branch="master" groups="device"/>
   <project name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="0f40dea301d470510d9a33afe53b4e46c18407a7" upstream="master" dest-branch="master" groups="device"/>
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
