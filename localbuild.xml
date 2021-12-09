@@ -125,8 +125,8 @@
 <!-- Kernel -->
 
   <project path="kernel/sony/qti-headers" name="qti-headers" groups="device" remote="sony" revision="master" />
-  <project name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device" clone-depth="1"/>
-  <project name="kernel-sony-msm-4.14-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device"/>
+  <project path="kernel/sony/msm-4.14/common-headers" name="kernel-sony-msm-4.14-headers" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device"/>
+  <project path="kernel/sony/msm-4.14/common-kernel" name="kernel-sony-msm-4.14-common" remote="sony" revision="aosp/LA.UM.7.1.r1" groups="device" clone-depth="1"/>
   <project path="kernel/sony/msm-4.19/common-headers" name="kernel-sony-msm-4.19-headers" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/msm-4.19/common-kernel" name="kernel-sony-msm-4.19-common" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" clone-depth="1"/>
 
