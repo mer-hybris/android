@@ -111,10 +111,12 @@
 
   <project path="vendor/qcom/opensource/core-utils" name="vendor-qcom-opensource-core-utils" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
   <project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
-  <project path="vendor/qcom/opensource/gpt-utils" name="vendor-qcom-opensource-gpt-utils" groups="device" remote="sony" revision="master" />
 
   <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
   <project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
+
+  <project path="vendor/qcom/opensource/gpt-utils" name="vendor-qcom-opensource-gpt-utils" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/bootctrl" name="vendor-qcom-opensource-bootctrl" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
   <project path="vendor/qcom/opensource/time-services" name="vendor-qcom-opensource-time-services" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
 
@@ -564,7 +566,6 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
-  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
