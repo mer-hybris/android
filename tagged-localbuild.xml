@@ -10,12 +10,12 @@
   
   <project name="QcRilAm" path="vendor/oss/qcrilam" remote="sony" revision="ef51ec65f5609e0fe9180ec3d2d054b72c0b8bee" upstream="master" dest-branch="master" groups="device"/>
   <project name="SonyOpenTelephony" path="vendor/oss/opentelephony" remote="sony" revision="c0b6d4306cd69764de63d2064c99c1224b840430" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
-  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="20ac9cb9919598f933773bc03aba6064673fd06d" upstream="aosp/LA.UM.8.11.r1" dest-branch="aosp/LA.UM.8.11.r1" groups="device"/>
+  <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="df2fa9260d11b620fefdb64a8ae5473e6158f168" upstream="aosp/LA.UM.8.11.r1" dest-branch="aosp/LA.UM.8.11.r1" groups="device"/>
   <project name="device-sony-akari" path="device/sony/akari" remote="sony" revision="ddbd49032d52184a7942eced2a5dc5f1b456058f" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="3fcb246ea543ce8d2e549b707a61b6c001594163" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="e702eb3698c31c2f71e90bfbb4558177b8bcfcb6" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="04bda77637e939bfbe0842ca9e2790395372df13" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="ee74bef9bd179423eed9dfaa5407f9110922e176" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="137bf78caf8a464adcac102bdcb2d70c91c98509" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="27650024e3b0be2c11034a49e6405e7093ef03b9" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-edo" path="device/sony/edo" remote="sony" revision="e947a8679021c9d18a62b12a4297a576749f6d36" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="f9864088e5d124168cdf56fa9fe48a260df4d1b5" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
@@ -50,11 +50,11 @@
   <project name="json-c" path="vendor/oss/json-c" remote="sony" revision="3b0d70d918bc57153721d45645cb953a493ebe19" upstream="master" dest-branch="master" groups="device"/>
   <project name="kernel-sony-msm-4.14-common" path="kernel/sony/msm-4.14/common-kernel" remote="sony" revision="2760d39d8383a857c2581200fd3b62f3772bf1f6" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device" clone-depth="1"/>
   <project name="kernel-sony-msm-4.14-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="4b3c84b2cb00590ccea2891f6246cff86cb7dab1" upstream="aosp/LA.UM.7.1.r1" dest-branch="aosp/LA.UM.7.1.r1" groups="device"/>
-  <project name="kernel-sony-msm-4.19-common" path="kernel/sony/msm-4.19/common-kernel" remote="sony" revision="985492a4e0115e620a4c1befb4245c53fb340503" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device" clone-depth="1"/>
-  <project name="kernel-sony-msm-4.19-headers" path="kernel/sony/msm-4.19/common-headers" remote="sony" revision="c4cde908b6b81f0e2e2811ef7be571182d9a01e8" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device"/>
+  <project name="kernel-sony-msm-4.19-common" path="kernel/sony/msm-4.19/common-kernel" remote="sony" revision="46b258f43917f08795208043e0a4f6cd3218272e" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device" clone-depth="1"/>
+  <project name="kernel-sony-msm-4.19-headers" path="kernel/sony/msm-4.19/common-headers" remote="sony" revision="15db5256dc7bcd07eed8861507bba1cfce923a1e" upstream="aosp/LA.UM.9.12.r1" dest-branch="aosp/LA.UM.9.12.r1" groups="device"/>
   <project name="kernel/configs" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="vts,pdk"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="d2871b2041790f6d291e207bec8b0ef34029ef59" upstream="master" dest-branch="master" groups="device"/>
-  <project name="nfc-NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="1d0d1119ee0941409e888e02b3639b7350254435" upstream="master" dest-branch="master" groups="device"/>
+  <project name="nfc-NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="a24b87d948d4325e0acd5927801228c53f0a526d" upstream="master" dest-branch="master" groups="device"/>
   <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="0973b752827008710b5b4ff30128affca34d22e3" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="platform/art" path="art" revision="a95b62a8c2bc4cf5e95857fd59c70cb166f71ed4" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk"/>
   <project name="platform/bionic" path="bionic" revision="6aaff2a54df115dd12b5034d03a2c58c39e4881b" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk"/>
