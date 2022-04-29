@@ -76,7 +76,7 @@
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="6351125ec900f421276213a2a0d336cfc6268042" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="aac29c4e6b0b7667ad4cc8cdb825243363cf4d6e" upstream="master"/>
   <project name="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r52"/>
-  <project name="libhybris" path="external/libhybris" remote="hybris" revision="10298a5f2342efb1556320f01fa7d6ef7a75b09b" upstream="master"/>
+  <project name="libhybris" path="external/libhybris" remote="hybris" revision="faaab1cd60f87664f0cd12f15e3beacf5b166b24" upstream="master"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="d413798801a15dc5633b2beb17852d39e608dc0a" upstream="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="5b392d411823d504e502fc0a219035934140b04a" upstream="master"/>
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="680e46c71260e0bbd9517b82a9b7be7902745698" upstream="master"/>
