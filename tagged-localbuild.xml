@@ -16,7 +16,7 @@
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="3fcb246ea543ce8d2e549b707a61b6c001594163" upstream="q-mr1" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="e702eb3698c31c2f71e90bfbb4558177b8bcfcb6" upstream="q-mr1" groups="device"/>
   <project name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="f9bc7dbda05cc85126dd72e9b30bb4adaacdfb29" upstream="q-mr1" groups="device"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="0aecc4398e8f77eac2d354d5c9879eb18a92d584" upstream="q-mr1" groups="device"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="f4bb1e32a37d1739c71479ad556731632e2c36f5" upstream="q-mr1" groups="device"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.14/common-headers" remote="sony" revision="ee8589bd354c74b8ebad0fbb779ab354759afe7c" upstream="aosp/LA.UM.7.1.r1" groups="device"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="27650024e3b0be2c11034a49e6405e7093ef03b9" upstream="q-mr1" groups="device"/>
   <project name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="72b3f8a310633978f12955b650b616c38f3d9bde" upstream="q-mr1" groups="device"/>
