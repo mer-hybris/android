@@ -369,7 +369,7 @@
   <project name="platform/frameworks/minikin" path="frameworks/minikin" revision="0a3ca408bd81a3cca22f9a1466ec379d09c85dad" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/ml" path="frameworks/ml" revision="d1ca7d857759855a2c5a98d63af0404bba549361" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex" revision="b288c36f55c976dfc1ac47c426b4adf60df4844b" upstream="refs/tags/android-8.1.0_r52"/>
-  <project name="platform/frameworks/native" path="frameworks/native" revision="a5c43d50e69846b64615452211537e2677a5368d" upstream="refs/tags/android-8.1.0_r52"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="345c278767ca4c2eb23e8f4de8f51235360b3cbe" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="6dbe3ff8cdcf84bfcf2667300c08f01d938b1c93" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="3f01563afad6b3d2f0546a6260ef958a8173deb6" upstream="refs/tags/android-8.1.0_r52"/>
