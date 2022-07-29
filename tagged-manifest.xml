@@ -55,7 +55,7 @@
   <project clone-depth="1" name="device/google/vrservices" revision="b290ba549b38447937773e3698e4678015550684" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="device/google/wahoo" revision="25e22473e5c306732b4cf142f31b89381f4cfb44" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="device/sample" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r52"/>
-  <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="20b8e40c3a1e0da9744e8d83aa1158eb1383d762" upstream="master"/>
+  <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="75fcb96f150aa0f2b38d58a1af80171767d0a4a5" upstream="master"/>
   <project name="hardware-qcom-display" path="hardware/qcom/display/msmfb" remote="sony" revision="f306f78eeb7884e1266078266e170170c23fc1c0" upstream="aosp/LA.UM.6.3.r1"/>
   <project name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="9c859d4816c6cfba691beb03b675fc3eb095b2ba" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="6351125ec900f421276213a2a0d336cfc6268042" upstream="master"/>
@@ -369,7 +369,7 @@
   <project name="platform/frameworks/minikin" path="frameworks/minikin" revision="0a3ca408bd81a3cca22f9a1466ec379d09c85dad" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/ml" path="frameworks/ml" revision="d1ca7d857759855a2c5a98d63af0404bba549361" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex" revision="b288c36f55c976dfc1ac47c426b4adf60df4844b" upstream="refs/tags/android-8.1.0_r52"/>
-  <project name="platform/frameworks/native" path="frameworks/native" revision="a5c43d50e69846b64615452211537e2677a5368d" upstream="refs/tags/android-8.1.0_r52"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="345c278767ca4c2eb23e8f4de8f51235360b3cbe" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="6dbe3ff8cdcf84bfcf2667300c08f01d938b1c93" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="3f01563afad6b3d2f0546a6260ef958a8173deb6" upstream="refs/tags/android-8.1.0_r52"/>
