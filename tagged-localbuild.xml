@@ -15,7 +15,7 @@
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="3fcb246ea543ce8d2e549b707a61b6c001594163" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="e702eb3698c31c2f71e90bfbb4558177b8bcfcb6" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-bahamut" path="device/sony/bahamut" remote="sony" revision="04bda77637e939bfbe0842ca9e2790395372df13" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="137bf78caf8a464adcac102bdcb2d70c91c98509" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="dc9448bb9a4c894d55320e571d4090a3ad60a034" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="27650024e3b0be2c11034a49e6405e7093ef03b9" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-edo" path="device/sony/edo" remote="sony" revision="e947a8679021c9d18a62b12a4297a576749f6d36" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
   <project name="device-sony-ganges" path="device/sony/ganges" remote="sony" revision="f9864088e5d124168cdf56fa9fe48a260df4d1b5" upstream="r-mr1" dest-branch="r-mr1" groups="device"/>
