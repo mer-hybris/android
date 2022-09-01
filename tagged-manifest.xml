@@ -3,5 +3,5 @@
   <!-- incremental version bump: droid-src-sony-aosp-11/1.9.2 -->
   <remote name="hybris" fetch="https://github.com/mer-hybris"/>
   <include name="tagged-localbuild.xml"/>
-  <project name="droid-src-sony" path="rpm" remote="hybris" revision="6b20a28ec935755d5433e04f6ae1062e57d8e1cd"/>
+  <project name="droid-src-sony" path="rpm" remote="hybris" revision="eb3d69ee1d23d181efca4880cae9cc543ae04d44"/>
 </manifest>
