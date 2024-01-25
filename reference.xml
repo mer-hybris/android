@@ -1,0 +1,4 @@
+<reference>
+    <device name="sony-murray" url="https://github.com/mer-hybris/android.git" branch="sony-aosp-13"/>
+    <device name="sony-zambezi" url="https://github.com/mer-hybris/android.git" branch="sony-aosp-13"/>
+</reference>
