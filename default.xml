@@ -23,7 +23,7 @@
 
   <!-- Hybris repos -->
   <project path="hybris-patches" name="mer-hybris/hybris-patches" revision="hybris-20.0" />
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="android13" />
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master" />
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
   <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="master" />
