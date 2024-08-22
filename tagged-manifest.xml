@@ -699,7 +699,7 @@
   <project groups="device" name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   <project groups="device" name="vendor-sony-oss-simdetect" path="vendor/oss/simdetect" remote="sony" revision="743c35040a50043c96c7628cece489da24974729" upstream="master"/>
 
-  <project name="droid-src-sony-ganges-pie" path="rpm" remote="hybris" revision="43d10850e2c2c26c26ee2d24a9eb224f53c2bc9f" upstream="master"/>
+  <project name="droid-src-sony-ganges-pie" path="rpm" remote="hybris" revision="8516f3a760cbd1c3910d0cfad9c9f4f18a0f0303" upstream="master"/>
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
