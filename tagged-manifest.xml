@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- incremental version bump: droid-src-sony-aosp-14/1.0.1 -->
+  <!-- incremental version bump: droid-src-sony-aosp-14/1.0.1-1 -->
   <remote name="hybris" fetch="https://github.com/mer-hybris" />
   <include name="tagged-localbuild.xml" />
   <project path="rpm" name="droid-src-sony" remote="hybris" revision="0424ff1f75b00629afc4a2c3f6e7ec1ce5637a40" />

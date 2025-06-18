@@ -1282,7 +1282,8 @@
   <project path="vendor/qcom/opensource/core-utils" name="vendor-qcom-opensource-core-utils" remote="sony" revision="aosp/LA.QSSI.12.0.r1" groups="device" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="vendor-qcom-opensource-core-utils-sys" remote="sony" revision="aosp/LA.QSSI.12.0.r1" groups="device" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor-qcom-opensource-core-utils-vendor" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" groups="device" />
-  <project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" remote="sony" revision="aosp/LA.UM.9.16.r1" groups="device" />
+  <project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" remote="sony" revision="aosp/LA.VENDOR.13.2.0.r1" groups="device" />
+  <project path="vendor/qcom/opensource/data-ipacfg-mgr-legacy" name="vendor-qcom-opensource-data-ipa-cfg-mgr" remote="sony" revision="aosp/LA.UM.9.16.r1" groups="device" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" groups="device" />
   <project path="vendor/qcom/opensource/display/sm8250" name="vendor-qcom-opensource-display" remote="sony" revision="aosp/LA.UM.9.12.r1" groups="device" />
   <project path="vendor/qcom/opensource/display/sm8350" name="vendor-qcom-opensource-display" remote="sony" revision="aosp/LA.UM.9.16.r1" groups="device" />
