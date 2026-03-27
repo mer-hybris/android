@@ -592,7 +592,7 @@
   <project name="repo_update" path="vendor/oss/repo_update" remote="sony" revision="0a62d6820d5cf36b24a947a1b471bd7df8006a05" upstream="android-8.1.0_r3">
     <linkfile dest="repo_update.sh" src="repo_update.sh"/>
   </project>
-  <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="87297db29b81ae9dedb386f75db8457e871a5a59" upstream="master"/>
+  <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="98841f810915762979df4ed89ab4e10aa73f8d26" upstream="o-mr1"/>
   <project name="timekeep" path="vendor/oss/timekeep" remote="sony" revision="9377c4aa8a84a0bb8be657785b2b7fe9423c957d" upstream="master"/>
   <project name="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r52"/>
   <project name="transpower" path="vendor/oss/transpower" remote="sony" revision="47700dfca36b1b3d69708b5288b5a18059d7922d" upstream="android-8.1.0_r35"/>
@@ -609,7 +609,7 @@
   <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="8becfc0299c98d8d509de53773e732714ec16148" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="8dcf1fbf8bbfadbe6fbad47f9b9389f41221477d" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="b47a64eaa434ab3121720df01f7be40222cd2ea9" upstream="master"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="6978d0b8446b694e55feb959f7ee48f7c6a9a2da" upstream="master"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="ec7a02da0fb2cd803f4ea58215aee165778c1711" upstream="o-mr1"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
